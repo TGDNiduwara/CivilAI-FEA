@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# scratch outputs (reference run artifacts are kept in results/)
+civil_fea/*.json
+civil_fea/*.csv
+civil_fea/*.txt
