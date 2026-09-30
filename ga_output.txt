@@ -1,0 +1,25 @@
+GA start: pop=24 gens=100 | baseline steel 1220.2 t | 27 sizing genes + 18 removal bits
+gen   1 | best w  1814.9 t | fit    17804.2 | util 0.811 | story 0.198% | top 0.166% | rm   0 | evals 46 (326 ms)
+gen   5 | best w  1593.7 t | fit    15634.5 | util 0.870 | story 0.302% | top 0.197% | rm 146 | evals 134 (353 ms)
+gen  10 | best w  1553.8 t | fit    15242.6 | util 0.899 | story 0.240% | top 0.184% | rm 224 | evals 244 (356 ms)
+gen  15 | best w  1553.8 t | fit    15242.6 | util 0.899 | story 0.240% | top 0.184% | rm 224 | evals 354 (338 ms)
+gen  20 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 464 (353 ms)
+gen  25 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 574 (357 ms)
+gen  30 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 684 (362 ms)
+gen  35 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 794 (367 ms)
+gen  40 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 904 (369 ms)
+gen  45 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1014 (371 ms)
+gen  50 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1124 (373 ms)
+gen  55 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1234 (376 ms)
+gen  60 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1344 (376 ms)
+gen  65 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1454 (374 ms)
+gen  70 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1564 (362 ms)
+gen  75 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1674 (356 ms)
+gen  80 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1784 (359 ms)
+gen  85 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 1894 (353 ms)
+gen  90 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 2004 (344 ms)
+gen  95 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 2114 (337 ms)
+gen 100 | best w  1347.8 t | fit    13221.7 | util 0.894 | story 0.247% | top 0.213% | rm 242 | evals 2224 (330 ms)
+==============================================================================
+BEST: 1347.8 t (-10.5% vs baseline 1220.2 t) | util 0.894 | story 0.247% | top 0.213% | removed 242 members
+design written to best_design.json, log in ga_log.csv

@@ -1,0 +1,116 @@
+{
+  "stages": {
+    "build_s": 0.0015533000000687025,
+    "loads_s": 0.001162300000032701,
+    "solve_GRAV_s": 0.18757469999991372,
+    "solve_WINDX_s": 0.18436289999999644,
+    "solve_WINDY_s": 0.18612520000033328,
+    "solve_EQX_s": 0.18633249999993495,
+    "solve_EQY_s": 0.1871728000000985,
+    "total_s": 1.3397978999996667
+  },
+  "n_members": 1820,
+  "n_nodes": 630,
+  "ndof": 3780,
+  "envelope": {
+    "max_util": 1.4411686234403374,
+    "n_members_over_90pct": 134,
+    "worst_member": {
+      "index": 1253,
+      "group": "beam_x_int_high",
+      "section": "W18x46",
+      "lc": "EQX"
+    },
+    "steel_weight_kN": 11969.855748137681
+  },
+  "per_lc": {
+    "GRAV": {
+      "solve_s": 0.18757469999991372,
+      "post_s": 0.0018552000001363922,
+      "max_util": 0.7099549875393683,
+      "util_member": 16,
+      "util_group": "col_interior_low",
+      "util_section": "W14x211",
+      "sum_Fz_applied_kN": -193533.70525998587,
+      "sum_Fz_reaction_kN": 193533.70525998672,
+      "Fz_equilibrium_err": 8.440110832452774e-10,
+      "drift": null
+    },
+    "WINDX": {
+      "solve_s": 0.18436289999999644,
+      "post_s": 0.001696400000128051,
+      "max_util": 1.2478612569728649,
+      "util_member": 1253,
+      "util_group": "beam_x_int_high",
+      "util_section": "W18x46",
+      "sum_Fz_applied_kN": -113413.85574813769,
+      "sum_Fz_reaction_kN": 113413.85574813817,
+      "Fz_equilibrium_err": 4.802132025361061e-10,
+      "drift": {
+        "story_ratio_max": 0.0027218053590039306,
+        "story_ratio_limit": 0.0033333333333333335,
+        "story_ok": true,
+        "top_drift_max": 0.002265749583368996,
+        "top_drift_limit": 0.0025,
+        "top_ok": true
+      }
+    },
+    "WINDY": {
+      "solve_s": 0.18612520000033328,
+      "post_s": 0.0020181999998385436,
+      "max_util": 1.1697413894054522,
+      "util_member": 1270,
+      "util_group": "beam_y_int_high",
+      "util_section": "W18x46",
+      "sum_Fz_applied_kN": -113413.85574813769,
+      "sum_Fz_reaction_kN": 113413.85574813845,
+      "Fz_equilibrium_err": 7.566995918750763e-10,
+      "drift": {
+        "story_ratio_max": 0.002423186641279566,
+        "story_ratio_limit": 0.0033333333333333335,
+        "story_ok": true,
+        "top_drift_max": 0.0019707058794295722,
+        "top_drift_limit": 0.0025,
+        "top_ok": true
+      }
+    },
+    "EQX": {
+      "solve_s": 0.18633249999993495,
+      "post_s": 0.0019059999999626598,
+      "max_util": 1.4411686234403374,
+      "util_member": 1253,
+      "util_group": "beam_x_int_high",
+      "util_section": "W18x46",
+      "sum_Fz_applied_kN": -113413.85574813769,
+      "sum_Fz_reaction_kN": 113413.85574813824,
+      "Fz_equilibrium_err": 5.529727786779404e-10,
+      "drift": {
+        "story_ratio_max": 0.0030395166882948273,
+        "story_ratio_limit": 0.0033333333333333335,
+        "story_ok": true,
+        "top_drift_max": 0.002512138861410083,
+        "top_drift_limit": 0.0025,
+        "top_ok": false
+      }
+    },
+    "EQY": {
+      "solve_s": 0.1871728000000985,
+      "post_s": 0.0016546000001653738,
+      "max_util": 1.0735477045546427,
+      "util_member": 1270,
+      "util_group": "beam_y_int_high",
+      "util_section": "W18x46",
+      "sum_Fz_applied_kN": -113413.85574813769,
+      "sum_Fz_reaction_kN": 113413.85574813826,
+      "Fz_equilibrium_err": 5.675246939063072e-10,
+      "drift": {
+        "story_ratio_max": 0.002221728202615543,
+        "story_ratio_limit": 0.0033333333333333335,
+        "story_ok": true,
+        "top_drift_max": 0.001757741423098465,
+        "top_drift_limit": 0.0025,
+        "top_ok": true
+      }
+    }
+  }
+}
